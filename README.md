@@ -1,13 +1,28 @@
 # Windows-Wifi-Hotspot
 
-A crappy small batch and PowerShell script to provide a semi-sane interface to setting up a secure Wifi hotspot in Windows.
+A crappy small batch and PowerShell script to provide a semi-sane interface to setting up a secure Wifi hotspot in Windows for
+other devices to connect to for an internet connection. This requires no extra software, just two tiny script files.
+
+Download the ZIP file containing the two files from the [releases page](https://github.com/EspeonOfEspeonage/Windows-Wifi-Hotspot/releases).
 
 If it is your first time setting this up, please follow the second section "First Time Setup" first.
 
 ## Using the script
 
+![Screenshot 6](images/screenshot6.png)
+
 - Ensure that `run.bat` and `wifihotspothelper.ps1` are both in a folder somewhere together.
 - Simply run `run.bat` and allow it to run as Administrator when you are prompted.
+
+![Screenshot 7](images/screenshot7.png)
+
+- You will be asked for an SSID (the name of the hotspot) and a PSK (the password for the hotspot). The PSK must be
+  at least 8 letters long.
+  
+![Screenshot 8](images/screenshot8.png)
+
+- And that is it! Everything should now be ready!
+
 - The hotspot will be destroyed once you shut down your computer. You will not need to run the stuff in the first time setup again
 however (hopefully).
 
