@@ -1,4 +1,4 @@
-# Windows-Wifi-Hotspot
+# WindowsWifiHotspot
 
 A crappy small batch and PowerShell script to provide a semi-sane interface to setting up a secure Wifi hotspot in Windows for
 other devices to connect to for an internet connection. This requires no extra software, just two tiny script files.
